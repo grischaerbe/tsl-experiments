@@ -7,9 +7,9 @@
 
 <Ui>
 	<ul class="p-6">
-		{#each data.paths as path}
+		{#each data.routes as route}
 			<li>
-				<a href={path}>{path}</a>
+				<a href={route}>{route}</a>
 			</li>
 		{/each}
 	</ul>
