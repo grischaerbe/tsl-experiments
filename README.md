@@ -35,7 +35,7 @@ material system.
 - Very easy to get into
 - Interesting approach to [varyings](https://github.com/mrdoob/three.js/wiki/Three.js-Shading-Language#varying-node-name--null-)
 - Swizzling is well implemented
-- The [transpiler](https://threejs.org/examples/?q=tsl#webgpu_tsl_transpiler) is very helpful in converting existing GLSL code to TSL.
+- The [transpiler](https://threejs.org/examples/?q=tsl#webgpu_tsl_transpiler) is very helpful in converting existing GLSL code to TSL
 - Highlights:
   - Ability to _compose_ shaders from multiple fragmental modules
   - Uniform declaration + update methods
