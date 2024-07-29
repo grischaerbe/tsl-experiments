@@ -1,5 +1,7 @@
 # TSL Experiments
 
+![Smoke](./Smoke.gif)
+
 This repository contains experiments using [TSL (Three.js Shader
 Language)](https://github.com/mrdoob/three.js/wiki/Three.js-Shading-Language), a
 currently Three.js exclusive way to write Shaders (programs that run on the GPU)
