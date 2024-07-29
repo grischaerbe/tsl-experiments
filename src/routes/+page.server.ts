@@ -1,9 +1,9 @@
-import { join } from 'node:path'
-import type { PageServerLoad } from './$types'
 import { readdirSync } from 'node:fs'
+import { resolve } from 'node:path'
+import type { PageServerLoad } from './$types'
 
 export const load = (async () => {
-	const paths = readdirSync(join('.', 'src', 'routes', 'experiments'), {
+	const paths = readdirSync(resolve(process.cwd(), 'src', 'routes', 'experiments'), {
 		recursive: false
 	})
 	return {
