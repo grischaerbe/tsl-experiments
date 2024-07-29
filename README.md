@@ -1,6 +1,6 @@
 # TSL Experiments
 
-![Smoke](./Smoke.gif)
+![Smoke](./smoke-2.gif)
 
 This repository contains experiments using [TSL (Three.js Shader
 Language)](https://github.com/mrdoob/three.js/wiki/Three.js-Shading-Language), a
@@ -32,7 +32,7 @@ material system.
 - It's _magic_ 🪄
 - The type system isn't perfect yet and not as rigid as native GLSL/WGSL is
 - More verbose than GLSL/WGSL
-- Very easy to get into.
+- Very easy to get into
 - Interesting approach to [varyings](https://github.com/mrdoob/three.js/wiki/Three.js-Shading-Language#varying-node-name--null-)
 - Swizzling is well implemented
 - Highlights:
