@@ -9,10 +9,10 @@ in JavaScript/TypeScript that has benefits over writing native GLSL/WGSL shader
 programs:
 
 - Tree-shakable
-- No language switch TS <-> GLSL/WGSL
+- No language switch TS <-> [GLSL](https://registry.khronos.org/OpenGL/specs/gl/GLSLangSpec.4.60.pdf)/[WGSL](https://www.w3.org/TR/WGSL/)
 - Automatic shader graph optimizations
 - Renderer agnostic
-- Output to WebGL(2) or WebGPU
+- Output to GLSL ([WebGL](https://caniuse.com/?search=webgl)) or WGSL ([WebGPU](https://caniuse.com/webgpu) – currently only supported by Chrome)
 - Universal approach to vertex vs. fragment shader creation
 - Node-based material system
 
@@ -52,3 +52,6 @@ pnpm i
 ```
 pnpm dev
 ```
+
+Because these experiments are WebGPU-first, you need to run them in a
+WebGPU-capable browser such as Chrome.
